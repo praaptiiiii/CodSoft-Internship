@@ -1,0 +1,177 @@
+body, html {
+    height: 100%;
+}
+  
+  .one {
+    /* The image used */
+    background-image: url("makeup-pics/lipstick-bg-new.jpg");
+    opacity: 0.85;
+    /* Full height */
+    height: 100%;
+    z-index: -1;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7.5%;
+}
+.one-text{
+    z-index: 1;
+    color: white;
+    border: 2px solid white;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding: 12.5%;
+    
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+h1{
+    font-size: 5rem;
+}
+
+.two{
+    background-color: #D8AA8D;
+    color: #843622;
+}
+.two-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.two h1 {
+    font-weight:300;
+    margin-left: 30%;
+    margin-top: 25%;
+}
+.two img{
+    width: 100%;
+}
+.two a{
+    color: #843622;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    position: relative;
+}
+a h3{
+    position: absolute;
+    margin-top: 48%;
+    margin-left: 35%;
+    text-align: center;
+    color: #843622;
+    background-color: white;
+    padding: 2% 5%;
+    border-radius: 20px 20px;
+}
+a h3:hover{
+    padding: 3.5% 5%;
+}
+
+.three{
+    background-color: #E9D1B6;
+    padding-bottom: 3%;
+}
+.three-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 2%;
+    gap: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.three-grid>div{
+    width: 100%;
+}
+.three h1{
+    font-weight: 300;
+    margin-left: 5%;
+    color: #B17B64;
+    margin-left: 30%;
+}
+.three h3:hover{
+    font-size: 1.9rem;
+}
+.cust{
+    background-image: url("makeup-pics/customer.jpg");
+    border-radius: 30px 30px;
+    color: black;
+}
+.cust>h3{
+    text-align: center;
+    color: black;
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: #A45936;
+    background-color: white;
+    border-radius: 20px 20px;
+    margin-top: 15%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+
+.four{
+    background-color: #B2A298;
+    color: white;
+}
+.four-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.four-grid img{
+    width: 100%;
+}
+.four h1{
+    font-weight: 300;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.four h4{
+    margin: 5%;
+    margin-left: 15%;
+}
+
+.five{
+    background-color: #CDAF9A;
+    color: white;
+}
+.five-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.five-grid img{
+    width: 100%;
+}
+.five h1{
+    font-weight: 300;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.five h3{
+    margin: 5%;
+    margin-left: 15%;
+    font-weight: 350;
+    text-decoration: underline;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+.five h4{
+    margin-left: 20%;
+}
+.five a{
+    color: white;
+    text-decoration: none;
+}
+.five i{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.five i:hover{
+    border: 0.8px solid white;
+    font-size: 200%;
+}

@@ -1,0 +1,86 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.one,body{
+    
+    background-image: url("https://e0.pxfuel.com/wallpapers/1001/972/desktop-wallpaper-opera-r3-light-theme-background.jpg");
+}
+
+.one{ 
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
+
+.one h1{
+    padding-top: 8%;
+    font-size: 5rem;
+    padding-bottom: 2.5%;
+}
+
+button{
+    margin: 4%;
+    font-size: 1.2rem;
+}
+img{
+    float: right;
+    height: 27%;
+}
+.btn-1{
+    background-color: #E5E0FF;
+    text-decoration: none;
+    opacity: 0.96;
+}
+.btn-2{
+    background-color: #D7E9F7;
+    opacity: 0.96;
+    text-decoration: none;
+}
+.btn-1:hover,.btn-2:hover{
+    opacity: 1;
+    font-weight: 350;
+}
+
+@media(max-width:768px){
+    
+    .one h1{
+        font-size: 4.3rem;
+        padding-bottom: 10%;
+        padding-top: 7%;
+    }
+    img{
+        float: none;
+        width: 65%;
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+    .btn-1{
+        margin-left: 20%;
+    }
+    .btn-list{
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+}
+@media(max-width:1000px){
+    img{
+        width: 50%;
+    }
+    .one-sub{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+}
+@media(min-width:769px){
+    a{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.text-hover{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
